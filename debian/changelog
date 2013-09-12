@@ -1,0 +1,5 @@
+fixvirtenv (1.0-1) lucid; urgency=low
+
+  * Initial release 
+
+ -- Dominique Villard <dominique.villard@orange.com>  Thu, 12 Sep 2013 16:05:32 +0200
