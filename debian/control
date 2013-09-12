@@ -1,5 +1,4 @@
 Source: fixvirtenv
-Section: unknown
 Priority: extra
 Maintainer: Dominique Villard <dominique.villard@oarange.com>
 Build-Depends: debhelper (>= 8.0.0), wget
@@ -7,6 +6,7 @@ Standards-Version: 3.9.2
 Homepage: <insert the upstream URL, if relevant>
 
 Package: fixvirtenv
+Section: notif/misc
 Architecture: all
 Depends: ${misc:Depends}, python-virtualenv
 Description: fix virtualenv usage when no internet access
