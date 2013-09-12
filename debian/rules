@@ -12,7 +12,7 @@
 build-indep: build-stamp
 build-stamp:
 	dh_testdir
-	wget http://pypi.python.org/packages/2.6/s/setuptools/setuptools-0.6c11-py2.6.egg
+	wget --no-check-certificate http://pypi.python.org/packages/2.6/s/setuptools/setuptools-0.6c11-py2.6.egg
 	touch $@
 
 build: build-indep
